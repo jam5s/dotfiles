@@ -8,7 +8,7 @@ bspc monitor HDMI-0 -d 6 7
 # Autostart
 #
 # Restore Wallpaper
-nitrogen --restore
+nitrogen --restore &
 # Notifications
 /usr/bin/dunst &
 # Network Applet
