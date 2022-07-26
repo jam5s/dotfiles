@@ -2,8 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor DP-4 -d 1 2 3 4 5 
-bspc monitor HDMI-0 -d 6 7
+bspc monitor -d 1 2 3 4 5 
 #
 # Autostart
 #
