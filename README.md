@@ -6,6 +6,7 @@
 - **Bar**: [polybar](https://github.com/polybar/polybar)
 - **Terminal:** [alacritty](https://github.com/alacritty/alacritty)
 - **Application Launcher:** [rofi](https://github.com/davatorium/rofi)
+- **Neovim Config:** [NvChad](https://github.com/NvChad/NvChad)
 
 ***
 not optimized for use by others, may require changes
