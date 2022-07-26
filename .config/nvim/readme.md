@@ -1,1 +1,1 @@
-[config](https://github.com/NvChad/NvChad)
+https://github.com/NvChad/NvChad
