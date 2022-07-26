@@ -7,6 +7,3 @@
 - **Neovim Config:** [nvchad](https://github.com/NvChad/NvChad)
 - **Window Manager**: [bspwm](https://github.com/baskerville/bspwm)
 - **Application Launcher:** [rofi](https://github.com/davatorium/rofi)
-
-***
-not optimized for use by others, may require changes
