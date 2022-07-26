@@ -1,0 +1,35 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+bspc monitor DP-4 -d 1 2 3 4 5 
+bspc monitor HDMI-0 -d 6 7
+#
+# Autostart
+#
+# Restore Wallpaper
+nitrogen --restore
+# Notifications
+/usr/bin/dunst &
+# Network Applet
+nm-applet --indicator &
+# Launch Polybar
+$HOME/.config/polybar/launch.sh &
+# Execute Picom
+picom &
+# Fix Cursor
+xsetroot -cursor_name left_ptr &
+
+bspc config border_width      0
+bspc config window_gap          13
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+bspc config pointer_follows_focus true
+bspc config focus_follows_pointer true
+
+# Border
+#bspc config focused_border_color        "#30254b"
+#bspc config normal_border_color         "#1e1731"
+#bspc config active_border_color         "#1e1731"
